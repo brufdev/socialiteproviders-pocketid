@@ -1,0 +1,33 @@
+{
+    "name": "brufdev/socialiteproviders-pocketid",
+    "description": "PocketID OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "pocketid",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "brufdev",
+            "email": "brufdev@proton.me"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/brufdev/socialiteproviders-pocketid/issues",
+        "source": "https://github.com/brufdev/socialiteproviders-pocketid",
+        "docs": "https://github.com/brufdev/socialiteproviders-pocketid"
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "brufdev\\SocialiteProvidersPocketID\\": "src/"
+        }
+    }
+}
